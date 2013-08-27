@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+#Page {
+	display: block;
+	background-color: #1B4D6D;
+	height: 900px;
+}
+#ContentArea {
+	display: block;
+	margin-right: 20%;
+	margin-left: 20%;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	background-color: #4A9AB9;
+}
+.table-striped tbody > tr:nth-child(odd) > td {
+  background-color: #A2CEDE;
+}
+.table-striped tbody > tr:nth-child(odd) > th {
+  background-color: #A2CEDE;
+}
+
+#add-modal-trigger {
+	margin-bottom:1em;
+}
